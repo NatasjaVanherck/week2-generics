@@ -1,6 +1,6 @@
 package be.pxl.generics.opdracht3;
 
-public class WorkingPlace<T> {
+public class WorkingPlace <T extends Vehicle & Motorized>{
 	private T thingToFix;
 	private int numberOfThingsFixed = 0;
 	
